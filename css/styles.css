@@ -640,9 +640,10 @@ color: var(--accent-color);
 }
 
 .sm-text {
+    font-weight: 500;
     margin-bottom: 16px;
-    line-height: 1.5ж
-    letter-spacing: 0.02emж
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--primary-bg-color);
 }
