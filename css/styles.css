@@ -248,7 +248,7 @@ color: var(--accent-color);
 
 /* main */
 
-/* hero */
+/* sectio 1 hero */
 .hero {
     max-width: 1440px;
     height: 600px;
@@ -277,7 +277,7 @@ color: var(--accent-color);
     margin-right :auto;
 }
 
-/* кнопка ордер */
+/* btn order */
 .hero-button.btn {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -301,16 +301,50 @@ color: var(--accent-color);
     color:var(--primary-bg-color);
 }
 
-/* possibilities */
+/* sectio 2 Advantages */
 
-.possibilities {
+.advant {
     padding: 120px 0;
 }
 
-.main-list-list {
+.advant-list {
     display: flex;
     gap: 24px;
 }
+
+.advant-item {
+    width: 264px;
+}
+
+.advant-undertitle {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
+}
+
+.advant-item .thumb {
+    height: 112px;
+    background-color: var(--sectoin-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.advant-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+
+
 
 .main.list {
     font-size: 20px;
