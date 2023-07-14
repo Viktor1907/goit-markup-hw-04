@@ -421,7 +421,7 @@ color: var(--accent-color);
 }
 
 .team-member {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 /* Sotial networks */
@@ -441,7 +441,7 @@ color: var(--accent-color);
 .team-sm-link {
     width: 100%;
     height: 100%;
-    background-color: var(--accent-color);
+    background-color: var(--footer-logo-color);
     border-radius: 50%;
     color: var(--sectoin-bg-color);
     display: flex;
