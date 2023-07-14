@@ -641,6 +641,8 @@ color: var(--accent-color);
 
 .sm-text {
     margin-bottom: 16px;
+    line-height: 1.5ж
+    letter-spacing: 0.02emж
     font-weight: 500;
     color: var(--primary-bg-color);
 }
