@@ -384,90 +384,80 @@ color: var(--accent-color);
     padding-bottom: 120px;
 }
 
+/* sectio 4 team */
 
-/* Sectio-team */
-
-.sectio.team {
+.team-section {
     padding: 120px 0;
     background-color: #F4F4FD;
     }
 
-.compoid.team {
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
-}
-
-.compoid-list {
-    width: calc((100% - 72px) / 4);
-    background-color: #FFFFFF;
-    gap: 24px;
-    border-radius: 0px 0px 4px 4px;
-}
-
-.compoid.list.team {
+.team-card {
+    width: calc((100% - 24px * 3) / 4);
     background: var(--primary-bg-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-item {
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-undertitle {
+    margin-bottom: 8px;
+    text-align: center;
+    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: var(--title-text-color);
-    margin-bottom: 8px;
+}
+
+.team-text {
     text-align: center;
     margin-bottom: 8px;
+    color: var(--primary-text-color);
 }
 
-.team-post {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #434455;
+.team-member {
+    padding: 32px 16px;
 }
 
-.sectio-team {
-    padding: 120px 0;
+/* Sotial networks */
+
+.team-sotialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
-.team.list {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    width: calc((100% - 72px) / 4);
+.team-sotialmedia-item {
+    width: 40px;
+    height: 40px;
 }
 
-.team-name {
-    padding: 32px 16px 32px 16px;
+.team-sm-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    color: var(--sectoin-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color var(--transition);
 }
 
-.team-posts {
-    margin-bottom: 8px;
-    text-align: center;
+.sotial-icon {
+    fill: currentColor;
 }
 
-.first-title.team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--title-text-color);
-    margin-bottom: 72px;
+.team-sm-link:is(:hover, :focus) {
+    background-color: var(--accent-color);
 }
-
-
 /* sectio 5 customers */
-
-
-
 
 .customers {
     padding: 120px 0;
