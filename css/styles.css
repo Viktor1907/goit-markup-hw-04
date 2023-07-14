@@ -182,7 +182,9 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--primary-text-color);
-    padding: 24px 0;;
+    padding: 24px 0;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .header-address-link:hover,
